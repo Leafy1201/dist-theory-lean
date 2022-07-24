@@ -1,0 +1,8 @@
+[package]
+name = "distribution-theory"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.45.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "68451363a0b8aea26bb8aa2cfd56a4f767a6027e"}
